@@ -13,7 +13,7 @@ To use this example, you will need Python (3.7 or more recent), and an API key f
 ## Running the example
 
 
-1. edit [tts.py](tts) and add your API key on line 1, instead of the value `'YOUR_API_KEY_HERE'`. You can optionally modify the voice and text parameters on lines 2 and 3, which control the text to speech synthesis voice and the text sent to the API for synthesis.
+1. edit [tts.py](tts.py) and add your API key on line 1, instead of the value `'YOUR_API_KEY_HERE'`. You can optionally modify the voice and text parameters on lines 2 and 3, which control the text to speech synthesis voice and the text sent to the API for synthesis.
 3. run `pip install -r requirements.txt` to install the required libraries
 3. run `python tts.py` to create the output audio. 
 
