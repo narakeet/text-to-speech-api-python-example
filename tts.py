@@ -1,4 +1,4 @@
-apikey = 'Vx7fL81hsF6MfhAlsUi8Eakc3t2lQATX1p3HWTiP'
+apikey = 'YOUR_API_KEY_HERE'
 voice = 'mickey'
 text = 'Hi there from Python'
 url = f'https://api.narakeet.com/text-to-speech/m4a?voice={voice}'
