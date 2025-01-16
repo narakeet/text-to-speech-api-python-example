@@ -12,8 +12,15 @@ Note that Narakeet also has a text to speech API to generate long content, suita
 
 To use this example, you will need Python (3.7 or more recent), and an API key for Narakeet.
 
-## Running the example
+## Running the example using Docker
 
+You can run the example using Docker without a local Python installation, using the following command line (replace `YOUR_NARAKEET_API_KEY` with your Narakeet API key):
+
+```
+make run NARAKEET_API_KEY=YOUR_NARAKEET_API_KEY
+```
+
+## Running the example without Docker
 
 1. edit [tts.py](tts.py) and add your API key on line 1, instead of the value `'YOUR_API_KEY_HERE'`. You can optionally modify the voice and text parameters on lines 2 and 3, which control the text to speech synthesis voice and the text sent to the API for synthesis.
 2. run `pip install -r requirements.txt` to install the required libraries
@@ -21,4 +28,4 @@ To use this example, you will need Python (3.7 or more recent), and an API key f
 
 ## More information
 
-Check out https://www.narakeet.com/docs/automating/text-to-speech-api/ for more information on the Narakeet Text to Speech API
+Check out <https://www.narakeet.com/docs/automating/text-to-speech-api/> for more information on the Narakeet Text to Speech API
