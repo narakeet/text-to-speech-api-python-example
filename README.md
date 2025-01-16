@@ -22,7 +22,7 @@ make run NARAKEET_API_KEY=YOUR_NARAKEET_API_KEY
 
 ## Running the example without Docker
 
-1. edit [tts.py](tts.py) and add your API key on line 1, instead of the value `'YOUR_API_KEY_HERE'`. You can optionally modify the voice and text parameters on lines 2 and 3, which control the text to speech synthesis voice and the text sent to the API for synthesis.
+1. export and set the environment variable `NARAKEET_API_KEY` with your API key, or edit [tts.py](tts.py) and add your API key on line 2, instead of reading the environment variable. You can optionally modify the voice and text parameters on lines 2 and 3, which control the text to speech synthesis voice and the text sent to the API for synthesis.
 2. run `pip install -r requirements.txt` to install the required libraries
 3. run `python tts.py` to create the output audio. 
 
